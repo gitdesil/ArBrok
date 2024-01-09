@@ -1,39 +1,95 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- ejercicios uno y dos HTML + CSS con estilo interno  usando <style> en html-->
 <html lang="en">
+  <!--## Ejercicio I
+Crear un nuevo archivo dentro de la carpeta `homework` llamado `homework.html` donde deberás realizar lo siguiente:
+I. Cree una página HTML básica.
+  A. Cree el diseño básico para una página HTML usando html, head y body. 
+    -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/styles.css">
-  <title>Tarea HTML css interno by Silvana Barea</title>
+  <!--B. Agregue un elemento de título y asigne a su página el título de "Tarea HTML de [Su nombre]".-->
+  <title>Tarea HTML  by Silvana Barea</title>
+  <!-- A. Etiqueta de estilos -->
+  <!--** Ejercicio II Añade un poco de estilo
+  A. Agregue la etiqueta de estilo a su documento HTML.  -->
+  <style>
+    /* B. Asignar al tercer div el id "thirdDiv" */
+    #thirdDiv {
+      /* G. Cambiar la altura y el ancho de 'thirdDiv' */
+      /*altura*/
+      height: 600px;
+      /*ancho*/
+      width: 500px;
+      /* H. Cambiar el color de fondo de 'thirdDiv' */
+      background-color: lightblue;
+      /* K. Asignar relleno (padding) a 'thirdDiv' */
+      padding: 50px;
+      /* L. Asignar un borde a 'thirdDiv' */
+      border: 2px solid black;
+    }
+
+    /* C. Asignar a los otros divs la clase "divClass" */
+    .divClass {
+   
+    }
+
+    /* D. Asignar al span el id "spanId" */
+    #spanId {
+      /* I. Cambiar el tamaño de la fuente para 'spanId' */
+      font-size: 18px;
+      /* J. Asignar margen a 'spanId' */
+      margin: 50px;
+    }
+
+    /* E. Cambiar el color del texto para h1 */  
+ 
+    h1 {
+      color: teal;
+    }
+
+    /* F. Cambiar el ancho de la imagen a 400px */ 
+    img {
+      width: 400px;
+    }
+  </style>
+
 </head>
+<!--I - C. En el cuerpo, crea tres divs.   -->
 <body>
-   <!-- Primer div -->
+   <!-- I- Primer div 
+        II- C. Asignar a los otros divs la clase "divClass".-->
   <div class="divClass">
+    <!--* un elemento h1 que contiene [Tu nombre].-->
     <h1>Silvana Barea</h1>
+    <!--* un elemento h3 que contiene "Hola soy un h3".-->
     <h3>Hola soy un h3</h3>
+    <!-- * un elemento h4 que contiene "tarea de HTML / CSS".-->
     <h4>tarea de HTML / CSS</h4>
   </div>
-   <!-- Segundo div -->
+    <!-- I- Segundo div 
+         II- C. Asignar a los otros divs la clase "divClass".-->
   <div class="divClass">
-    <!--
-    <span id="spanId"><p>Supremas napolitanas a caballo - con ensalada y papas fritas </p></span style="color:blue"><a href="https://www.circuitogastronomico.com/las-mejores-milanesas-de-cordoba/">Restaurantes cordoba</a>
-    -->
-    <a style="font-size: 18px;
-    margin: 50px;" href="https://www.circuitogastronomico.com/las-mejores-milanesas-de-cordoba/"> Restaurantes Córdoba Mi restaurante favorito <br><br></a>
-
+    <!--*I - un elemento span que contiene texto que describe su comida favorita.
+       II- D. Asignar al span que se encuentra dentro de su segundo div el id "spanId".-->
+    <span id="spanId"><p>Supremas napolitanas a caballo - con ensalada y papas fritas </p>
+    <!--* un elemento 'a' que se vincula a su restaurante favorito.-->
+    <a href= "https://www.circuitogastronomico.com/las-mejores-milanesas-de-cordoba/"> Restaurantes Córdoba Mi restaurante favorito <br><br></a>
     </div>
-  <!-- Tercer div -->
-  <div id="thirdDiv" style="height: 600px; width: 500px; background-color: pink; padding: 50px;
-  border: 2px solid lightseagreen;">  
-    <ul>
-      <li><img src="/img/tres.jpeg" alt="Milanesa con huevo y papas fritas" style="width: 400px"></li>
-      <li><img src="/img/cuatro.jpeg" alt="Napolitana ensalada" style="width: 400px"></li>
-    </ul>
+   <!-- I- Tercer div 
+        II- B. Asignar al tercer div el id "thirdDiv".-->
+   <div id="thirdDiv">  
+    <!-- En el tercer div crea: * una lista desordenada con dos elementos dentro de la lista-->
+    <!-- * una etiqueta img en cada elemento de la lista que se vincula a su comida favorita. (Use la búsqueda de imágenes de Google para encontrar una foto y copiar la dirección de la misma o sino puede usar esta: "https://i.picsum.photos/id/1080/400/200.jpg").
+-->
+      <ul>
+       <li><img  src="/img/tres.jpeg" alt="Milanesa con huevo y papas fritas" ></li>
+       <li><img  src="/img/cuatro.jpeg" alt="Napolitana ensalada" ></li>
+      </ul>
   </div>
   
 </body>
-</html>
-
 <!--
  ** Ejercicio I
 
