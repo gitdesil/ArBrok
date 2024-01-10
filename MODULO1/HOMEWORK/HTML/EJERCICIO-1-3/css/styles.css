@@ -1,0 +1,94 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  }
+
+.contenedor {
+  width: 80%;
+  margin: 0 auto; /* Centrar el contenido en el centro de la página */
+}
+.bloque {
+  background-color: hsl(51, 72%, 77%);
+  margin: 20px 0; /* Espaciado entre los bloques */
+  padding: 10PX
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+p {
+    color: rgb(95, 7, 27);
+    font-size: 20px;
+    text-align: center;
+  }
+#thirdDiv {
+
+  width: 600px;
+  height: 500px;
+  background-color: #b8f5d2;
+  padding: 100px;
+  border: 200px;
+  margin:auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.divClass {
+align-content: center;
+text-align: center;
+}
+.divClass a{ 
+  align-content: center;
+   margin-inline-start: 0px;
+}
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
+h1 {
+  color:teal;
+  background-color: beige;
+  text-align: right;
+} 
+h3 {
+  color:rgb(28, 39, 39);
+  text-align-last: center;
+} 
+h4 {
+  color:rgb(28, 39, 39);
+  text-align-last: center;
+} 
+li{
+  align-items: center;
+}
+img {
+  width: 400px;
+  align-items: center; 
+}
+.fondo-pagina {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.contenido {
+  padding: 10px;
+  color: hsl(29, 91%, 42%); /* Color de texto para que sea legible en la imagen de fondo */
+  align: center;
+  
+}
+contenido ul{
+  align-items: center;
+}
+/* Estilos adicionales para hacer la página responsiva */
+@media (max-width: 768px) {
+  .contenido {
+    padding: 10px;
+  }
+}
