@@ -29,6 +29,7 @@ header {
 .title-container {
     width: 70%;
     padding-left: 20px; /* Espacio entre la foto y el título */
+    font-size: 0.5em;
 }
 
 main {
@@ -68,11 +69,13 @@ footer {
     color: #ffffff;
     text-align: center;
     padding: 20px;
+    font-size: 0.5em;
 }
 
 .footer-container {
     display: flex;
     justify-content: space-between;
+
 }
 
 .rights,
@@ -137,6 +140,14 @@ input, textarea {
     box-sizing: border-box;
 }
 
+button {
+    background-color: #043150;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 button {
     background-color: #043150;
     color: #fff;
