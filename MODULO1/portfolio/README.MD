@@ -1,7 +1,7 @@
-#Proyecto de modulo 1
-##Consigna: Desarrollo de un Portafolio Personal con HTML y CSS
+# Proyecto de modulo 1
+## Consigna: Desarrollo de un Portafolio Personal con HTML y CSS
 
-##Objetivo: Crear un portafolio personal que refleje tu identidad, habilidades y proyectos utilizando HTML y CSS. El objetivo es lograr un diseño atractivo y fácil de navegar que muestre tu creatividad y competencia en diseño web.
+## Objetivo: Crear un portafolio personal que refleje tu identidad, habilidades y proyectos utilizando HTML y CSS. El objetivo es lograr un diseño atractivo y fácil de navegar que muestre tu creatividad y competencia en diseño web.
 
 Requisitos Básicos:
 
