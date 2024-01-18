@@ -3,7 +3,18 @@
 
 ## Objetivo: Crear un portafolio personal que refleje tu identidad, habilidades y proyectos utilizando HTML y CSS. El objetivo es lograr un diseño atractivo y fácil de navegar que muestre tu creatividad y competencia en diseño web.
 
-Requisitos Básicos:
+# Requisitos Básicos:
+#  HTML CSS  
+## Ejercicio II =Usando lo que aprendiste de HTML vas a crear un nuevo documento dentro de la carpeta de 'homework' llamado 'cv.html'. En el mismo vas crear tu propio Curriculum, deberá tener las siguientes secciones:
+* Titulo
+* Descripción Personal
+* Educación
+* Experiencias Laborales
+* Skills
+* Tu foto
+* Hobbies
+
+Además agregá una sección más donde expliques por qué estás estudiando esta carrera y cuáles son tus expectativas al finalizar la carrera.
 
 Página de Inicio:
 
