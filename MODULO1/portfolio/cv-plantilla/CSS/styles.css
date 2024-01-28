@@ -91,7 +91,7 @@ footer {
     width: 35px;
     height: 35px;
     margin-right: 10px;
-    padding-left: 15px;
+    padding: 15px;
     transition: box-shadow 0.3s ease-in-out;
 }
 
