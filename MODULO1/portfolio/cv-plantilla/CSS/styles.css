@@ -88,9 +88,10 @@ footer {
 }
 
 .social-icons img {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     margin-right: 10px;
+    padding-left: 15px;
     transition: box-shadow 0.3s ease-in-out;
 }
 
@@ -140,14 +141,6 @@ input, textarea {
     box-sizing: border-box;
 }
 
-button {
-    background-color: #043150;
-    color: #fff;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
 button {
     background-color: #043150;
     color: #fff;
